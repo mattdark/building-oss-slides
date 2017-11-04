@@ -1,391 +1,124 @@
 ![](img/python.png)
 <!-- .element: style="margin-top: -5%;" -->
-## Python 101
+## Building OSS with Python
 
-#### [Mario Garcia](http://mariog.xyz) · [@mariogmd](https://twitter.com/mariogmd)
-
----
-
-## What is Python?
-
-***
+#### [Mario Garcia](http://mattdark.github.io) · [@mariogmd](https://twitter.com/mariogmd)
 
 ---
 
-## Download Python
+## Who am I?
 
 ***
 
-### Download from python.org
-
-```
-python.org/downloads
-
-```
-
-***
-
-- Available for Windows, GNU/Linux, Mac
-- Support for x86, x86-64 & ARM<!-- .element: class="fragment" -->
-- Python 2.7.13 & Python 3.6.1<!-- .element: class="fragment" -->
-
-***
-
-### Install from repositories on GNU/Linux
-
-***
-
-### Ubuntu
-
-```
-sudo apt install python3
-
-```
-
-<!-- .element: class="fragment" -->
-
-***
-
-### Manjaro
-
-```
-sudo pacman -S python
-
-```
-
-<!-- .element: class="fragment" -->
+- Self-taught person
+- Free Software user<!-- .element: class="fragment" -->
+- Speaker<!-- .element: class="fragment" -->
+- Python developer<!-- .element: class="fragment" -->
+- Programming teacher<!-- .element: class="fragment" -->
 
 ---
 
-## Python 2.7.x vs Python 3.6.x
+## Agenda
 
-- Sintax slightly different<!-- .element: class="fragment" -->
-- Compatibility with libraries<!-- .element: class="fragment" -->
+- What is OSS?
+- Pre-checks<!-- .element: class="fragment" -->
+- Project creation<!-- .element: class="fragment" -->
+- README.md checklist<!-- .element: class="fragment" -->
+- Coding Phase<!-- .element: class="fragment" -->
+- Release Phase<!-- .element: class="fragment" -->
+- Post-release<!-- .element: class="fragment" -->
+
+---
+
+## What is OSS?
 
 ***
 
-### Python 2.7.13
+#### Open Source Software is a computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose. - Source: Wikipedia
 
-```
-  print "Hello world!"
-```
+---
+
+## Pre-checks
 
 ***
 
-### Python 3.6.1
-
-```
-  print("Hello world!")
-```
+- Able to explain your project in a tweet?
+- Choose a name for the project<!-- .element: class="fragment" -->
+- Check if domain name / App name is available?<!-- .element: class="fragment" -->
+- List and learn tools required for the project<!-- .element: class="fragment" -->
+- Prepare mock-up and one page design document<!-- .element: class="fragment" -->
+- List previous / similar implementations<!-- .element: class="fragment" -->
+- Start a blog post to document the journey<!-- .element: class="fragment" -->
+- Ask if project could be solved in a modular way<!-- .element: class="fragment" -->
 
 ---
 
-## Python 3.6
-
----
-
-## Interactive Shell
-
-```
-[mattdark@manjaro ~]$ python
-Python 3.6.1 (default, Mar 27 2017, 00:27:06)
-[GCC 6.3.1 20170306] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-
-```
-
-<!-- .element: class="fragment" -->
+## Project Creation
 
 ***
 
-```
->>> print("Hello world!")
-Hello world!
-
-```
-
----
-
-## Text editors
-
-- Atom<!-- .element: class="fragment" --> [atom.io](https://atom.io/)<!-- .element: class="fragment" -->
-- Notepad++<!-- .element: class="fragment" --> [notepad-plus-plus.org](https://notepad-plus-plus.org/)<!-- .element: class="fragment" -->
-- Sublime Text<!-- .element: class="fragment" --> [sublimetext.com](https://www.sublimetext.com/)<!-- .element: class="fragment" -->
+- Create a repository in any of the SCM sites
+- Create a README.md<!-- .element: class="fragment" -->
+- Create a LICENSE file<!-- .element: class="fragment" -->
+- Create a CODE_OF_CONDUCT.md<!-- .element: class="fragment" -->
+- Create a CONTRIBUTING.md<!-- .element: class="fragment" -->
 
 ---
 
-## IDEs
-
-- Ninja IDE<!-- .element: class="fragment" --> [ninja-ide.org](https://ninja-ide.org/)<!-- .element: class="fragment" -->
-- Thonny<!-- .element: class="fragment" --> [thonny.org](https://thonny.org/)<!-- .element: class="fragment" -->
-
----
-
-## Basic Syntax
-
----
-
-## Printing text
-
-```
-  # hello.py
-  print("Hello world!")
-
-```
+## README.md Checklist
 
 ***
 
-```
-  mattdark@ubuntu:~$ python hello.py
-  Hello world!
-
-```
-
----
-
-## variables
-
-```
-  variable_name = value
-
-```
+- Title
+- Logo<!-- .element: class="fragment" -->
+- Description<!-- .element: class="fragment" -->
+- Prerequisite for using software (if any)<!-- .element: class="fragment" -->
+- Install<!-- .element: class="fragment" -->
+- Example usage<!-- .element: class="fragment" -->
+- Screenshots and GIFs<!-- .element: class="fragment" -->
+- Benchmarks<!-- .element: class="fragment" -->
+- Contributors<!-- .element: class="fragment" -->
+- Backers and sponsors<!-- .element: class="fragment" -->
+- Atributions<!-- .element: class="fragment" -->
 
 ---
 
-## data types
+## Coding Phase
 
-```
-  str = "This is a string" # string
-  age = 28 # integer
-  price = 7435.28 # float
-  bool = True # boolean
-  bool = False
-```
+***
+
+- Install required developer tools
+- Write tests<!-- .element: class="fragment" -->
+- Host the documentation of the code<!-- .element: class="fragment" -->
+- Encourage OSS culture<!-- .element: class="fragment" -->
+- Contribute to other OSS projects<!-- .element: class="fragment" -->
 
 ---
 
-## operators
-
-```
-  a = 10 + 5 # Addition
-  a = 12 - 7 # Subtraction
-  a = 7 * 5 # Multiplication
-  a = 2 ** 3 # Exponent
-
-```
+## Release Phase
 
 ***
 
-```
-  a = 12.5 / 2 # Division
-  a = 12.5 // 2 # Floor division
-  a = 27 % 4 # Modulus
-
-```
+- Package software
+- Publish the software<!-- .element: class="fragment" -->
+- Create the release page<!-- .element: class="fragment" -->
 
 ---
 
-## comments
-
-```
-  # This is a comment
-
-```
+## Post-release
 
 ***
 
-```
-  """ This is a comment
-      of two lines """
-
-```
+- Publish a blog post
+- Tweet<!-- .element: class="fragment" -->
+- Reddit<!-- .element: class="fragment" -->
+- LinkedIn<!-- .element: class="fragment" -->
+- Mailing lists<!-- .element: class="fragment" -->
+- Prepare slides and give talks<!-- .element: class="fragment" -->
 
 ---
 
-## decision making
-
-```
-  # if statement
-  a = 5
-  if a == 10:
-      print("Value of a is ", a)
-
-```
-
-***
-
-```
-  # if ... else statement
-  a = 5
-  if a > 10:
-      print("a is greater than 10")
-  else:
-      print("a is less than 10")
-```
-
-***
-
-```
-  # if ... elif statement
-  a = 5
-  if a > 10:
-      print("a is greater than 10")
-  elif a == 10:
-      print("a is equal to 10")
-
-```
-
----
-
-## comparison operators
-
-```
-  if a == 12 # equal to
-  if a != 20 # not equal to
-  if a < 100 # less than
-
-```
-
-***
-
-```
-  if a > 50 # greater than
-  if a >= 10 # greater than or equal to
-  if a <= 30 # less than or equal to
-
-```
-
----
-
-## logical operators
-
-```
-  if a > 10 and a < 50 # and
-  if a > 10 or a > 15 # or
-
-```
-
----
-
-## loops
-
-```
-  # while loop
-  n = 0
-  while n < 10:
-      print(n)
-      n = n + 1
-
-```
-
-***
-
-```
-  # for loop
-  for i in range(10):
-      print(n)
-
-```
-
----
-
-## lists
-
-```
-  a = [1, 2, 3, 4, 5, 6, 7, 8, 9] # List
-  b = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] # 2D List
-
-```
-
-***
-
-## print list content
-
-```
-  a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-  print(a)
-
-```
-
-***
-
-```
-  a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-  for i in range(9):
-      print(a)
-
-```
-
----
-
-## functions
-
-```
-  def function_name(parameters):
-      # Statements
-
-```
-
-***
-
-```
-  def sum(a, b):
-      c = a + b
-      print("The result of a + b is ", c)
-
-  a = 10
-  b = 5
-  sum(a, b)
-```
-
----
-
-## Examples
-
-***
-
-### Create a password
-
-```
-import random
-c = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!-#$%&/()=?¿[]{}"
-p = random.sample(c, 16)
-pw = ""
-for i in range(len(p)):
-    pw += p[i]
-print("Password:", pw)
-
-```
-
-***
-
-### Order numbers
-
-```
-list = list()
-for i in range(3):
-    list.append(int(input("Introduce a number: ")))
-list.sort(reverse = True)
-print(list)
-
-```
-
-***
-
-### Days between two dates
-
-```
-import datetime
-h = datetime.date.today()
-y = int(input("Introduce year (AAAA): "))
-m = int(input("Introduce month (MM): "))
-d = int(input("Introduce day (DD): "))
-date = datetime.date(y, m, d)
-days = h - date
-print("Days passed: ", days.days)
-
-```
+## Python
 
 ---
 
